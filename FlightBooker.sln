@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooker.Server", "FlightBooker.Server\FlightBooker.Server.csproj", "{3CB381F8-325D-4CDB-A77E-5B45E57899B8}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "flightbooker.client", "flightbooker.client\flightbooker.client.esproj", "{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CB381F8-325D-4CDB-A77E-5B45E57899B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB381F8-325D-4CDB-A77E-5B45E57899B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB381F8-325D-4CDB-A77E-5B45E57899B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB381F8-325D-4CDB-A77E-5B45E57899B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEA98F2-9A4A-4CE5-A4F7-8F25CDE6F188}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C07258F1-C8BE-40BB-86A7-3801AED17FD4}
+	EndGlobalSection
+EndGlobal

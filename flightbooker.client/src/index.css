@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+@layer components {
+    .hover-underline {
+        @apply relative no-underline after:content-[''] after:absolute after:bottom-1 after:h-[1px] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left;
+    }
+}
